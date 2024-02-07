@@ -1,0 +1,521 @@
+body {
+	margin: 0;
+	padding: 0;
+	background-color: whitesmoke;
+	overflow: scroll;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	background-image: linear-gradient(to bottom right, white, #adb8bb, #597790);
+	display: flex;
+	padding-left: 50px;
+}
+
+.logo {
+	max-width: 8%;
+	height: auto;
+	margin-right: 15px;
+}
+
+h1 {
+	color: #003c71;
+	padding-left: 5px;
+	font-size: 40px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*navbar_index.html*/
+.navbar {
+	background-color: #adb8bb;
+	padding-left: 50px;
+	overflow: hidden;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar ul {
+	padding: 0;
+	margin: 0;
+	width: 100vw;
+	display: flex;
+	list-style-type: none;
+}
+
+.navbar li {
+	float: left;
+}
+
+.navbar li a {
+	color: #003349;
+	padding: 20px;
+	font-size: 17px;
+	display: block;
+	text-decoration: none;
+}
+
+.navbar li a:hover {
+	background-color: rgb(221, 224, 223);
+}
+
+/*conten1_index.html*/
+
+.banner {
+	height: 80vh;
+	background-image: url(../LOGO&GAMBAR/perpus.jpg);
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: justify;
+	position: relative;
+	display: flex;
+}
+
+.banner:after {
+	background-color: rgba(0, 0, 0, .5);
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.banner h1 {
+	color: whitesmoke;
+	margin: 0;
+	padding-left: 50px;
+	font-size: -100%;
+	font-family: monospace;
+	z-index: 1;
+}
+
+.banner p {
+	color: white;
+	margin: 0;
+	margin-top: 10px;
+	padding-left: 50px;
+	font-size: 15px;
+	font-family: monospace;
+	z-index: 1;
+}
+
+.container {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+}
+
+.box {
+	background-color: rgb(103, 135, 149, .8);
+	background-size: cover;
+	width: 500px;
+	height: 450px;
+	padding: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: -9%;
+	align-items: center;
+	z-index: 1;
+}
+
+.box h2 {
+	color: whitesmoke;
+	border: 5px solid #f2e3d0;
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	font-family: monospace;
+}
+
+.box p {
+	padding: 3px;
+	text-align: left;
+	margin: 0;
+	margin-top: 25px;
+	margin-left: 0;
+	color: white;
+	font-family: monospace;
+	font-size: larger;
+}
+
+.contenn {
+	width: 90%;
+	margin-top: 25px;
+	margin-bottom: 50px;
+	overflow: hidden;
+	padding-left: 70px;
+}
+
+/*conten2_index.html*/
+
+.name h1 {
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 100px;
+	margin-bottom: 25px;
+	color: black;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.conten {
+	width: 50%;
+	float: right;
+	box-sizing: border-box;
+	margin: 0;
+	margin-bottom: 25px;
+}
+
+.conten p, h2 {
+	color: black;
+	margin-left: 0;
+	text-align: justify;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gambarr {
+	float: left;
+	width: 50%;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+.sertif {
+	width: 90%;
+	height: auto;
+	display: block;
+}
+
+/* footer_index.html*/
+
+.footer1 {
+	background-image: linear-gradient(to bottom right, white, #adb8bb, #597790);
+	width: auto;
+	margin: 0 auto ;
+	overflow: hidden;
+}
+
+.isi {
+	padding-left: 50px;
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.isi h2 {
+	color: #003349;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+.isi p {
+	color: #003349;
+	text-align: justify;
+	padding-bottom: 0;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.isi3 p {
+	color: #003349;
+	text-align: center;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+footer {
+	background-color: #003c71;
+	color: #fff;
+	bottom: 0;
+	text-align: center;
+}
+
+
+/*profil.html*/
+
+.profil {
+	height: 60vh;
+	background-image: url(../LOGO&GAMBAR/sk.jpg);
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: justify;
+	position: relative;
+	display: flex;
+}
+
+.profil:after {
+	background-color: rgba(0, 0, 0, .5);
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+/*conten1_profil.html*/
+
+.container1 {
+	width: 90%;
+	margin-top: 50px;
+	display: flex;
+	padding-left: 70px;
+}
+
+.isi1 {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+	padding-left: 20px;
+	margin: 0;
+}
+
+.isi1 p, h2 {
+	margin-left: 0;
+	text-align: justify;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gambar {
+	float: right;
+	width: 50%;
+	padding-top: 10px;
+	padding-left: 45px;
+	box-sizing: border-box;
+}
+
+
+.gambar1 {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
+/*conten2_profil.html*/
+
+.gambar2 h1{
+	text-align: justify;
+	margin-left: 43px;
+	margin-bottom: 20px;
+	padding-top: 100px;
+}
+
+.organisasi{
+	width: 93%;
+	height: auto;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+/*conten3_profil.html*/
+.judul h1 {
+	text-align: justify;
+	margin-left: 43px;
+	margin-bottom: 5px;
+	padding-top: 100px;
+}
+
+main {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+.artikel {
+	width: 30%;
+	background-color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, .5);
+	margin-bottom: 20px;
+	overflow: hidden;
+}
+
+.artikel img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.artikel .content {
+	padding: 20px;
+}
+
+.content p, h2 {
+	color: #333;
+	margin-left: 0;
+	text-align: justify;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*conent1-layanan.html*/
+
+.layanan {
+	height: 60vh;
+	background-image: url(../LOGO&GAMBAR/ly.jpg);
+	background-size: cover;
+	background-position: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: justify;
+	position: relative;
+	display: flex;
+}
+
+.layanan:after {
+	background-color: rgba(0, 0, 0, .5);
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.title h1{
+	text-align: center;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 100px;
+	margin-bottom: 25px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container2 {
+	max-width: 1000vh;
+	margin: 0 auto;
+	padding: 20px;
+	margin-top: 50px;
+	margin-right: 50px;
+	margin-left: 50px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.text h2{
+	color: #293749;
+	align-items: center;
+	font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+} 
+
+.text{
+	width: 30%;
+	padding: 20px;
+	background-image: linear-gradient(to bottom right, white, #adb8bb);
+	box-sizing: border-box;
+	border-radius: 5%;
+	border: 4px solid #003349 ;
+	text-align: justify;
+	box-shadow: 0 4px 3px rgba(0, 0, 0, .3);
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+}
+
+.judul3 h1{
+
+	background-color: #293749;
+	margin-top: 50px;
+	background-size: contain;
+	text-align: center;
+	color: whitesmoke;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+}
+
+.judul3 p{
+	margin-top: 20px;
+	padding-left: 50px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.judul4 h1{
+
+	background-color: #293749;
+	margin-top: 50px;
+	background-size: contain;
+	text-align: center;
+	color: white;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;;
+	
+}
+
+.judul4 p{
+	margin-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.judul5 h1{
+
+	background-color: #293749;
+	margin-top: 50px;
+	background-size: contain;
+	text-align: center;
+	color: whitesmoke;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	
+}
+
+.judul5 p{
+	margin-top: 20px;
+	padding-right: 50px;
+	padding-left: 50px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*fasilitas.html*/
+
+.wadah4 {
+	align-content: center;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+
+.wadah4 img {
+	max-width: 50%;
+	height: auto;
+}
+
+.wadah4 h3, p{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*koleksi.html*/
+.koleksi1 h1{
+	margin-left: 50px;
+}
+
+.book-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.book {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin: 16px;
+	padding: 16px;
+	max-width: 200px;
+	text-align: center;
+}
+
+.book img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+.koleksi2 h2{
+	text-align:right;
+	padding-right: 50px;
+}
